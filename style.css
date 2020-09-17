@@ -1,0 +1,61 @@
+p, 
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+  } 
+  .block,
+li {
+  border: 0px solid black;
+  padding: .5em;
+  
+}
+h1 {
+    color: gray;
+    text-align: center;
+  }
+ul {
+    display: flex;
+    list-style: none;
+  }   
+  .block {
+    display: block;
+  }      
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+  }
+
+  select {
+    color: gray;
+    background-color:white;
+  }
+  .box {
+    border: px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 0px;
+    width: auto;
+    height: 150px;
+  }
+  .box2 {
+    border: 0px solid rebeccapurple;
+    padding: 40px;
+    margin: 10px;
+    width: 27%;
+    height: 150px;
+    display: inline-block;
+    flex-direction: column;
+    background-color: lightgray;
+ }
+  
+ 
+
